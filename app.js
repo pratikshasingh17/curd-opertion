@@ -11,5 +11,4 @@ const product = require('./routes/product.route');
 var app=express();
 var port=1234;
 app.use('/products',product);
-app.listen(port,()=>{
-console.log('Server is up '+port);});
+app.listen(port,()=>{});
